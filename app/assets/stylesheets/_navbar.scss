@@ -1,0 +1,14 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 3em;
+  font-family: 'Poppins', sans-serif;
+  div {
+    margin: 1em 3em;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

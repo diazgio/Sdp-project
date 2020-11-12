@@ -1,0 +1,15 @@
+.speach {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin:0 auto;
+  .speach-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    h5 {
+      
+    }
+  }
+}
