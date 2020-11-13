@@ -4,14 +4,22 @@
   align-items: center;
   justify-content: center;
   width: 30%;
-  height: 25em;
+  height: 30em;
   margin:0 auto;
+  .logo-speach {
+    .black-lock{
+      width: 30em;
+      height: 17em;
+      margin: 0;
+    }
+  }
   .speach-p {
     display: flex;
     justify-content: center;
     text-align: center;
     h5 {
-      
+     margin: 0 0 3em;
+     font-size: 1.2em;
     }
   }
 }

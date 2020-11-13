@@ -1,6 +1,6 @@
 .header {
   background-color: black;
-  height: 45em;
+  height: 55em;
   .header-container {
     display: flex;
     justify-content: space-around;
@@ -8,26 +8,68 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      .white-lock-div{
+        height: 10em;
+        .white-lock {
+          width: 25em;
+          height: 15em;
+        }
+      }
+
+      .date-header{
+        margin-top: 5em;
+        border-top: white solid 2px;
+        border-bottom: white solid 2px;
+        p {
+          color: white;
+          font-weight: bolder;
+          font-size: 3em;
+          font-family: 'Poppins', sans-serif;
+          font-style: italic;
+        }
+      }
       .logos {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-      }
-      .work-tougheter {
-        p {
-          color: yellow;
-          font-family: 'Poppins', sans-serif;
+        width: 40em;
+        height: 20em;
+        position: relative;
+        .trhee-logos {
+          position: absolute;
+          top: -18em;
+          left: -19em;
+          width: 77em;
+          height: 50em;
         }
-      }
-      .div-button {
-        margin-bottom: 1rem;
-        .button-header{
-          color: white;
-          padding: 1em;
-          background-color: transparent;
-          border: white solid 2px;
-          border-radius: 1rem;
-          font-family: 'Poppins', sans-serif;
+        .work-tougheter {
+          position: absolute;
+          top: 12em;
+          left: 12em;
+          p {
+            color: yellow;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
+            font-size: 1.5em;
+          }
+        }
+        .div-button {
+          margin-bottom: 1rem;
+          position: absolute;
+          top: 17em;
+          left: 13em;
+          .button-header{
+            color: white;
+            padding: 1em;
+            background-color: transparent;
+            border: white solid 2px;
+            border-radius: 1rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
+            font-size: 1.5em;
+          }
+          .button-header:focus {
+            visibility: hidden;
+          }
         }
       }
     }
