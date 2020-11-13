@@ -1,37 +1,51 @@
-<%= form_with(model: @user, local: true) do |form| %>
-
-
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+<div class='form-section'>
+  <div class="f-title">
+      <div class="abs">
+        <h1>INSCRIPCIÓN</h1>
+      </div>
   </div>
+  <div class='form'>
+    <%= form_with(model: @user, local: true) do |form| %>
 
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
-  </div>
 
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
-  </div>
+      <div class="field">
+        <%= form.label :name, 'NOMBRES:', class: 'text' %>
+        <%= form.text_field :name, class: 'input-field' %>
+      </div>
 
-  <div class="field">
-    <%= form.label :company %>
-    <%= form.text_field :company %>
-  </div>
+      <div class="field">
+        <%= form.label :last_name, 'APELLIDOS:', class: 'text' %>
+        <%= form.text_field :last_name, class: 'input-field' %>
+      </div>
 
-  <div class="field">
-    <%= form.label :position %>
-    <%= form.text_field :position %>
-  </div>
+      <div class="field">
+        <%= form.label :email, 'CORREO:', class: 'text' %>
+        <%= form.text_field :email, class: 'input-field' %>
+      </div>
 
-  <div class="field">
-    <%= form.label :city %>
-    <%= form.text_field :city %>
-  </div>
+      <div class="field">
+        <%= form.label :company, 'INSTITUCIÓN:',class: 'text' %>
+        <%= form.text_field :company, class: 'input-field'%>
+      </div>
 
-  <div class="actions">
-    <%= form.submit %>
+      <div class="field">
+        <%= form.label :position, 'CARGO:',class: 'text' %>
+        <%= form.text_field :position, class: 'input-field' %>
+      </div>
+
+      <div class="field">
+        <%= form.label :city, 'CIUDAD:', class: 'text' %>
+        <%= form.text_field :city, class: 'input-field' %>
+      </div>
+
+      <div class="field">
+        <%= form.check_box :checking %>
+        <%= form.label :authorisation, 'Autorizo a compartir datos privados, tanto por los gremios organizadores como por los auspiciadores.', class: 'text-check'%>
+      </div>
+
+      <div class="div-button">
+        <%= form.submit 'INSCRIBIRME', class: 'button'%>
+      </div>
+    <% end %>
   </div>
-<% end %>
+</div>

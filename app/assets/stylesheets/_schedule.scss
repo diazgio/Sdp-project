@@ -9,9 +9,11 @@
     text-align: center;
     border-top: solid black  2px;
     border-bottom: solid black 2px;
-    width: 10em;
+    width: 20em;
     h2 {
-      color: aqua;
+      color: #00d4af;
+      font-size: 3em;
+      font-weight: bolder;
     }
   }
   .rows {
@@ -37,7 +39,7 @@
     .second-box {
       display: flex;
       flex-direction: column;
-      background-color: aqua;
+      background-color: #00d4af;
       width: 10em;
       text-align: center;
       .dic-1,
@@ -66,7 +68,7 @@
     .forth-box {
       display: flex;
       flex-direction: column;
-      background-color: aqua;
+      background-color: #00d4af;
       width: 10em;
       text-align: center;
       .dic-1,

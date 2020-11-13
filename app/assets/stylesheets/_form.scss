@@ -1,0 +1,63 @@
+.form-section{
+  position: relative;
+  margin-top: 10em;
+  .f-title {
+    .abs {
+      position: absolute;
+      top: -1em;
+      left: .1em;
+      font-size: 6em;
+      letter-spacing: 10px;
+      color: #ffff00;
+    }
+  }
+
+  .form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13em;
+    .field {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2em;
+      .text {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        width: 8em;
+        font-weight: bolder;
+      }
+  
+      .input-field {
+        width: 26em;
+        height: 2em;
+      }
+
+      .text-check {
+        color: white;
+        width: auto;
+        font-weight: bolder;
+        font-size: 1em;
+        margin: 1em 0 1em 5px;
+      }
+
+    }
+    .div-button {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2em;
+      .button {
+        color: #ffff00;
+        padding: 1em;
+        background-color: transparent;
+        border: #ffff00 solid 2px;
+        border-radius: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
