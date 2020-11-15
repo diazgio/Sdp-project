@@ -12,13 +12,18 @@
  *
  *= require_tree .
  *= require_self
- */ 
+
+ */
+
+
+
 @import 'navbar';
 @import 'header';
 @import 'speach';
 @import 'form';
+@import 'footer';
 
-body {
+body, html {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }

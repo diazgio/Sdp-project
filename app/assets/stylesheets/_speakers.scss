@@ -7,6 +7,7 @@
   justify-content: center;
   position: relative;
   height: 40em;
+  padding-bottom: 10em;
   .s-title {
 
     .abs {
@@ -28,6 +29,22 @@
     margin-top: 15em;
     .pic {
       margin: 5em;
+      .img {
+        .girl {
+          height: 20em;
+          border-radius: 3em;
+        }
+      }
+      .name {
+        color: #ff00ff;;
+      }
+      .pos {
+        color: black;
+        background-color: #ff00ff;;
+      }
+      .loc {
+        color: white;
+      }
     }
   }
 }

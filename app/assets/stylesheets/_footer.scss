@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4em;
+  height: 25em;
+  .ftitle {
+    text-align: center;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+    width: 20em;
+    h2 {
+      font-size: 3em;
+      font-weight: bolder;
+    }
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+    .pfooter {
+      text-align: center;
+    }
+    .follow {
+      text-align: center;
+      h5 {
+        font-size: 1.5em;
+        font-weight: bolder;
+      }
+    }
+    .flinks {
+      display: flex;
+      .link {
+
+        font-size:3em;
+        a {
+          margin:  1em;
+          color: #00d4af;
+        }
+
+      }
+
+    }
+  }
+  .end {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #eeeeee;
+    width: 100%;
+    margin-top: 3em;
+    .copy {
+      margin-left: 5em;
+    }
+    .help {
+      margin-right: 5em;
+    }
+  }
+}
