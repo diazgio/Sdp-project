@@ -14,9 +14,7 @@
  *= require_self
 
  */
-
-
-
+@import "bootstrap";
 @import 'navbar';
 @import 'header';
 @import 'speach';
@@ -27,3 +25,5 @@ body, html {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+

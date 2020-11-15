@@ -2,13 +2,16 @@
   position: relative;
   margin-top: 10em;
   .f-title {
-    .abs {
-      position: absolute;
-      top: -1em;
-      left: .1em;
-      font-size: 6em;
-      letter-spacing: 10px;
-      color: #ffff00;
+    .f-abs {
+      h2 {
+        position: absolute;
+        top: -0.35em;
+        left: .1em;
+        font-size: 12em;
+        letter-spacing: 10px;
+        color: #ffff00;
+        font-weight: bolder;
+      }
     }
   }
 
