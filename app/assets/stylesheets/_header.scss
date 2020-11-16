@@ -1,6 +1,6 @@
 .header {
   background-color: black;
-  height: 61.5em;
+  height: 45em;
   .header-container {
     display: flex;
     justify-content: space-around;
@@ -9,7 +9,7 @@
         position: relative;
         .upper {
           position: absolute;
-          height: 63.5em;
+          height: 47.1em;
           top: -8em;
         }
       }
@@ -17,27 +17,27 @@
         position: relative;
         .emana {
           position: absolute;
-          height: 7em;
-          left: 16em;
-          top: 0.8em;
+          height: 5em;
+          left: 12em;
+          top: -2em;
         }
       }
       .yellow2 {
         position: relative;
         .ela {
           position: absolute;
-          height: 7em;
-          top: 20em;
-          left: 21em;
+          height: 5em;
+          top: 12em;
+          left: 16em;
         }
       }
       .yellow3 {
         position: relative;
         .ublicidad {
           position: absolute;
-          height: 7em;
-          top: 48em;
-          left: 19em;
+          height: 5em;
+          top: 34em;
+          left: 14em;
         }
       }
     }
@@ -45,49 +45,21 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-left: 25em;
+      margin-left: 5em;
       .sdp-container {
         display: flex;
         position: relative;
-        .special {
-          width: fit-content;
-          background-color: black;
-          padding: 0.7em;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          position: absolute;
-          left: -10em;
-          top: 4.6em;
-          background-color: black;
-          z-index: 3;
-          width: 12em;
-          h3 {
+        
+        .date-header{
+          margin-top: 5em;
+          border-top: white solid 2px;
+          border-bottom: white solid 2px;
+          p {
             color: white;
-            font-size: 1.2em;
-            margin: 0;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Poppins', sans-serif;
             font-style: italic;
-            opacity: 0.9;
-          }
-        }
-        .title-logs {
-          h4 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: white solid 2px;
-            border-left: none;
-            border-right: none;
-            border-bottom: none;
-            padding: 0.6em 0;
-            position: absolute;
-            left: -5em;
-            top: 1.5em;
-            color: #fdff02;
-            font-size: 4em;
-            margin: 0;
-            width: 8em;
-            z-index: 1;
           }
         }
 
@@ -95,41 +67,23 @@
           height: 10em;
           .white-lock {
             position: absolute;
-            left: 6em;
+            left: 15em;
             top: 1.4em;
-            width: 22em;
-            height: 12em;
+            width: 25em;
+            height: 15em;
           }
         }
       }
 
-      .date-header{
-        margin-top: 5em;
-        border-top: white solid 2px;
-        border-bottom: white solid 2px;
-        p {
-          color: white;
-          font-weight: bolder;
-          font-size: 3em;
-          font-family: 'Poppins', sans-serif;
-          font-style: italic;
-        }
-      }
 
       .content-h {
-        width: 40em;
-        text-align: center;
-        margin-top: 1em;
-        p {
-          color: white;
-          font-weight: bolder;
-        }
         .work-tougheter {
           p {
             color: #00d4ae;
             font-family: 'Poppins', sans-serif;
             font-weight: bolder;
-            font-size: 1.5em;
+            font-size: 3.5em;
+            margin: 1em 0 0 0;
           }
         }
       }
