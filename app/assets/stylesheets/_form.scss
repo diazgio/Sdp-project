@@ -15,6 +15,17 @@
     }
   }
 
+  .form-speach {
+    position: absolute;
+    top: 7.5em;
+    left: 45em;
+    p {
+      color: white;
+      font-weight: bold;
+      font-size: 1.7em;
+    }
+  }
+
   .form {
     background-color: black;
     display: flex;
