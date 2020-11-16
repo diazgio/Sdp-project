@@ -6,12 +6,12 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 40em;
-  padding: 20em 0;
+  height: auto;
+  padding: 10em 0;
   .s-title {
     .s-abs {
       position: absolute;
-      top: -3em;
+      top: -4.5em;
       left: 0.1em;
       h1 {
         font-size: 10em;
@@ -26,31 +26,58 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20em;
-    margin-bottom: 15em;
-    .pic {
-      margin: 5em;
-      .img {
-        .girl {
-          height: 20em;
-          border-radius: 3em;
+
+
+    .fpic {
+      display: flex;
+      flex-direction: row;
+      .pic {
+        margin: 5em;
+        .img {
+          .girl {
+            height: 20em;
+            border-radius: 3em;
+          }
+        }
+        .name {
+          color: #ff00ff;;
+        }
+        .pos {
+          color: black;
+          background-color: #ff00ff;;
+        }
+        .loc {
+          color: white;
         }
       }
-      .name {
-        color: #ff00ff;;
-      }
-      .pos {
-        color: black;
-        background-color: #ff00ff;;
-      }
-      .loc {
-        color: white;
+    }
+    .spic {
+      display: flex;
+      flex-direction: row;
+      .pic {
+        margin: 5em;
+        .img {
+          .girl {
+            height: 20em;
+            border-radius: 3em;
+          }
+        }
+        .name {
+          color: #ff00ff;;
+        }
+        .pos {
+          color: black;
+          background-color: #ff00ff;;
+        }
+        .loc {
+          color: white;
+        }
       }
     }
+
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 320px){
 
-}
