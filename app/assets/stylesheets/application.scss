@@ -22,9 +22,14 @@
 @import 'form';
 @import 'footer';
 
+@font-face {
+  font-family: "DIN";
+  src: url('./fonts/DIN-Pro-400.otf') format("truetype");
+}
+
 body, html {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'DIN', sans-serif;
 }
 
 

@@ -21,13 +21,13 @@ import "bootstrap";
 
 
 $(document).on('turbolinks:load', function(){
-    $(".upper").delay(500).slideUp(600, function(){
+    $(".upper").delay(800).slideUp(600, function(){
         $(".upper").alert('close');
     });
 });
 
 $(document).on('turbolinks:load', function(){
-    $(".upper").delay(500).slideDown(500, function(){
+    $(".upper").delay(800).slideDown(500, function(){
         $(".upper").alert('close');
     });
 });
@@ -39,7 +39,7 @@ $(document).on('turbolinks:load', function(){
 });
 
 $(document).on('turbolinks:load', function(){
-    $(".emana").delay(500).slideDown(500, function(){
+    $(".emana").delay(800).slideDown(500, function(){
         $(".emana").alert('close');
     });
 });
@@ -51,7 +51,7 @@ $(document).on('turbolinks:load', function(){
 });
 
 $(document).on('turbolinks:load', function(){
-    $(".ela").delay(500).slideDown(500, function(){
+    $(".ela").delay(800).slideDown(500, function(){
         $(".ela").alert('close');
     });
 });
@@ -63,7 +63,7 @@ $(document).on('turbolinks:load', function(){
 });
 
 $(document).on('turbolinks:load', function(){
-    $(".ublicidad").delay(500).slideDown(500, function(){
+    $(".ublicidad").delay(800).slideDown(500, function(){
         $(".ublicidad").alert('close');
     });
 });
