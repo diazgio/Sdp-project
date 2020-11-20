@@ -73,11 +73,7 @@ Rails.application.configure do
       password: "Gio123456"
   }
 
-<<<<<<< HEAD
-  config.action_mailer.default_url_options = { host: 'https://tranquil-garden-10221.herokuapp.com' }
-=======
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
 
 
->>>>>>> 4996aea9c8da7b68b7c91f1a8a1fb801f69dec30
 end
