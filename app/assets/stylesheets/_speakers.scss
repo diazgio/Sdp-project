@@ -33,14 +33,14 @@
     .fpic {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
+
       margin: 0 auto;
       .pic {
-        margin: 5em;
+        margin: 2.5em;
         width: 20em;
         .img {
           .girl {
-            height: 22em;
+            max-height: 22em;
             border-radius: 3em;
           }
         }
