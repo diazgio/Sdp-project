@@ -3,43 +3,37 @@
   <head>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
-  <style>
-    .header-mailer {
-      display: flex;
-      background-color: black;
-    }
-    .header-sdplogo {
-      
-    }
-  </style>
   <body>
-    <div class='header-mailer'>
+    <div class='header-mailer' style="display: flex; background-color: black">
       <div class='header-sdplogo'>
-        
+        <%= image_tag attachments['sdpfucsia.png'].url, style: "height: 30em" %>
       </div>
       <div class='header-container'>
-        <div class='header-title'>
-          <h1>¡Gracias <%= @user.name %>, por inscribirte a la Semana de la Publicidad 2020!</h1>
+        <div class='header-title' style="color: #00d4ae">
+          <h1 style=" border-bottom: #00d4ae solid 2px">¡Gracias <%= @user.name %>, por inscribirte a la Semana de la Publicidad 2020!</h1>
         </div>
-        <div class='header-button'>
-          <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmNwdnJ0dTF0dm5kcDR1Mjc5dmJrZmtvMHJfMjAyMDEyMDJUMTQwMDAwWiBpbmZvcm1lc3NkcEBt&amp;tmsrc=informessdp%40gmail.com&amp;scp=ALL">AGENDA LA FECHA</a>
-        </div>
-        <div class='header-parragraph'>
+
+        <button class='header-button' style="background-color: transparent; border: white solid 2px; border-radius: 1rem; font-weight: bolder; font-size: 1em; height: 3em; padding: 0.5em ">
+          <a style="text-decoration: none; color: white" target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmNwdnJ0dTF0dm5kcDR1Mjc5dmJrZmtvMHJfMjAyMDEyMDJUMTQwMDAwWiBpbmZvcm1lc3NkcEBt&amp;tmsrc=informessdp%40gmail.com&amp;scp=ALL">AGENDA LA FECHA</a>
+        </button>
+        <div class='header-parragraph' style="color: white">
+          <p>Te estaremos enviando los links de acceso para cada fecha del evento 48 horas antes del inicio. </p>
+          <p>Prepárate para descubrir las experiencias mas inspiradoras en publicidad, medios y marketing. </p>
         </div>
         <div class='white-lock'>
+          <%= image_tag attachments['white.png'].url, style: "height: 5em" %>
         </div>
-        <div class='header-phrase'>
+
+        <div class='header-phrase' style="color: #00d4ae; font-size: 2em; font-weight: bold">
           <p>Trabajando Juntos</p>
         </div>
         <div class='header-threelogos'>
+          <%= image_tag attachments['logos.png'].url, style: "height: 5em; width: 20em" %>
         </div>
       </div>
     </div>
     <div class='sponsors'>
-      <div class='first-row'>
-      </div>
-      <div class='second-row'>
-      </div>
+      <%= image_tag attachments['blogos.png'].url, style: "height: 25em; width:100%" %>
     </div>
   </body>
 </html>
