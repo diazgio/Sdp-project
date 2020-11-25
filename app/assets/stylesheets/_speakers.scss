@@ -33,6 +33,7 @@
     .fpic {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       .pic {
         margin: 5em;
         .img {

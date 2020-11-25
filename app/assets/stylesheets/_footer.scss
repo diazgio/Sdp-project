@@ -2,9 +2,83 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 4em;
-  height: 25em;
+  height: auto;
+
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6em;
+    .atitle {
+      text-align: center;
+      border-bottom: solid black 2px;
+      border-top: solid black 2px;
+      width: 15em;
+      h2 {
+        font-size: 2em;
+        font-weight: bolder;
+      }
+    }
+    .stitle {
+      text-align: center;
+      border-bottom: solid black 2px;
+      border-top: solid black 2px;
+      width: 20em;
+      h2 {
+        font-size: 2em;
+        font-weight: bolder;
+      }
+    }
+    .ltitle {
+      text-align: center;
+      border-bottom: solid black 2px;
+      border-top: solid black 2px;
+      width: 10em;
+      h2 {
+        font-size: 2em;
+        font-weight: bolder;
+      }
+    }
+    .logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1em;
+      .logo1 {
+        margin: 1em;
+        .pic {
+          height: 10em;
+        }
+      }
+      .logo2 {
+        margin: 1em;
+        .pic {
+          height: 7em;
+        }
+      }
+      .logo3 {
+        margin: 1em;
+        .pic {
+          height: 6em;
+        }
+      }
+      .logo4 {
+        margin: 1em;
+        .pic {
+          height: 12em;
+        }
+      }
+      .logo5 {
+        margin: 1em;
+        .pic {
+          height: 12em;
+        }
+      }
+
+    }
+  }
   .ftitle {
     text-align: center;
     border-bottom: solid black 2px;
@@ -27,16 +101,14 @@
     }
     .flinks {
       display: flex;
+      justify-content: center;
       .link {
         font-size:3em;
-        a {
+        span {
           margin:  1em;
           color: #00d4af;
         }
-        span {
-          color: black;
-          font-size: 0.5em;
-        }
+
       }
 
     }
