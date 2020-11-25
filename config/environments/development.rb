@@ -64,13 +64,13 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   
   config.action_mailer.smtp_settings = {
-      address: "smtp.gmail.com",
+      address: "smtpout.secureserver.net",
       port: 587,
-      domain: "gmail.com",
+      domain: "sdp.pe",
       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: "semanaelapublicidad@gmail.com",
-      password: "Gio123456"
+      user_name: "informes@sdp.pe",
+      password: "Dosdemayo534"
   }
 
   config.action_mailer.default_url_options = { host: 'localhost:3000' }

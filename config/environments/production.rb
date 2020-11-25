@@ -114,13 +114,13 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.smtp_settings = {
-      address: "smtp.gmail.com",
+      address: "smtp.office365.com",
       port: 587,
-      domain: "gmail.com",
+      domain: "sdp.pe",
       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: "semanaelapublicidad@gmail.com",
-      password: "Gio123456"
+      user_name: "informes@sdp.pe",
+      password: "Dosdemayo534"
   }
 
   config.action_mailer.default_url_options = { host: 'shrouded-sea-45423.herokuapp.com/' }
