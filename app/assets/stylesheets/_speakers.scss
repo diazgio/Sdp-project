@@ -38,17 +38,19 @@
         margin: 5em;
         .img {
           .girl {
-            height: 20em;
-            width: 22em;
+            height: 40em;
             border-radius: 3em;
           }
         }
         .name {
-          color: #ff00ff;;
+          color: #ff00ff;
+          font-size: 1.5em;
         }
         .pos {
           color: black;
-          background-color: #ff00ff;;
+          font-size: 1.2em;
+          background-color: #ff00ff;
+          padding: 0 0.4em;
         }
         .loc {
           color: white;
@@ -61,19 +63,20 @@
       .pic {
         margin: 5em;
         .img {
-          width: 15em;
           .girl {
-            height: 20em;
-            width: 20em;
+            height: 40em;
             border-radius: 3em;
           }
         }
         .name {
-          color: #ff00ff;;
+          color: #ff00ff;
+          font-size: 1.5em;
         }
         .pos {
           color: black;
-          background-color: #ff00ff;;
+          font-size: 1.2em;
+          background-color: #ff00ff;
+          padding: 0 0.4em;
         }
         .loc {
           color: white;
