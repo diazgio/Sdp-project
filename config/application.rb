@@ -32,6 +32,6 @@ module Event
     # Don't generate system test files.
     config.generators.system_tests = nil
     # show images in mailer views
-    config.action_mailer.asset_host = 'localhost:3000'
+    config.action_mailer.asset_host = 'https://cryptic-meadow-61796.herokuapp.com/'
   end
 end
