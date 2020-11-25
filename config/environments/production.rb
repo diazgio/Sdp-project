@@ -123,5 +123,5 @@ Rails.application.configure do
       password: "Gio123456"
   }
 
-  config.action_mailer.default_url_options = { host: 'https://cryptic-meadow-61796.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'cryptic-meadow-61796.herokuapp.com/' }
 end
