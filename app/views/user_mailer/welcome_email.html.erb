@@ -4,11 +4,11 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <div class='header-mailer' style="display: flex; background-color: black">
-      <div class='header-sdplogo'>
+    <div class='header-mailer' style="display: flex; justify-content: center; background-color: black">
+      <div class='header-sdplogo' style='margin-left: auto;'>
         <%= image_tag attachments['sdpfucsia.png'].url, style: "height: 30em" %>
       </div>
-      <div class='header-container'>
+      <div class='header-container' style='margin-right: auto; margin-left: 2em'>
         <div class='header-title' style="color: #00d4ae">
           <h1 style=" border-bottom: #00d4ae solid 2px">¡Gracias <%= @user.name %>, por inscribirte a la Semana de la Publicidad 2020!</h1>
         </div>
@@ -32,8 +32,8 @@
         </div>
       </div>
     </div>
-    <div class='sponsors'>
-      <%= image_tag attachments['logosblack.jpeg'].url, style: "height: 25em; width:100%" %>
+    <div class='sponsors' style='text-align: center;'>
+      <%= image_tag attachments['logosblack.jpeg'].url, style: "height: 32em; width:70%; margin: 0 auto" %>
     </div>
   </body>
 </html>
