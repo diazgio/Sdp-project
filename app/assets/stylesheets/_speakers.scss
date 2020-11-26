@@ -28,15 +28,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    margin: 0 auto;
 
     .fpic {
       display: flex;
       flex-direction: row;
-
+      flex-wrap: wrap;
+      justify-content: center;
       margin: 0 auto;
       .pic {
-        margin: 2.5em;
+        margin: 3em;
         width: 20em;
         .img {
           .girl {
