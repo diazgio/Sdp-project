@@ -116,12 +116,12 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
       address: "smtpout.secureserver.net",
       port: 25,
-      domain: "shrouded-sea-45423.herokuapp.com",
+      domain: "agile-taiga-12216.herokuapp.com/",
       authentication: "plain",
       enable_starttls_auto: true,
       user_name: "informes@sdp.pe",
       password: "Dosdemayo534"
   }
 
-  config.action_mailer.default_url_options = { host: 'shrouded-sea-45423.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'agile-taiga-12216.herokuapp.com/' }
 end
