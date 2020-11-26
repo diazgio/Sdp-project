@@ -119,8 +119,8 @@ Rails.application.configure do
       domain: "gmail.com",
       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: "informessdp@gmail.com",
-      password: "Sdp12345"
+      user_name: "semanaelapublicidad@gmail.com",
+      password: "Gio123456"
   }
 
   config.action_mailer.default_url_options = { host: 'agile-taiga-12216.herokuapp.com/' }
