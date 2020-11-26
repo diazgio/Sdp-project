@@ -114,13 +114,13 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.smtp_settings = {
-      address: "email.secureserver.net",
-      port: 80,
+      address: "smtp.gmail.com",
+      port: 587,
       domain: "mydomain.com",
       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: "informes@sdp.pe",
-      password: "Dosdemayo534"
+      user_name: "informessdp@gmail.com",
+      password: "Sdp12345"
   }
 
   config.action_mailer.default_url_options = { host: 'agile-taiga-12216.herokuapp.com/' }
