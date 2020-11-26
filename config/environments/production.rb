@@ -114,9 +114,9 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.smtp_settings = {
-      address: "smtp.office365.com",
-      port: 587,
-      domain: "godaddy.com",
+      address: "email.secureserver.net",
+      port: 80,
+      domain: "mydomain.com",
       authentication: "plain",
       enable_starttls_auto: true,
       user_name: "informes@sdp.pe",
