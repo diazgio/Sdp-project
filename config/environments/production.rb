@@ -114,8 +114,8 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.smtp_settings = {
-      address: "smtpout.secureserver.net",
-      port: 25,
+      address: "smtp.office365.com",
+      port: 587,
       domain: "agile-taiga-12216.herokuapp.com/",
       authentication: "plain",
       enable_starttls_auto: true,
