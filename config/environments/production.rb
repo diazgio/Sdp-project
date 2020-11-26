@@ -114,8 +114,8 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.smtp_settings = {
-      address: "smtp.office365.com",
-      port: 587,
+      address: "smtpout.secureserver.net",
+      port: 25,
       domain: "shrouded-sea-45423.herokuapp.com",
       authentication: "plain",
       enable_starttls_auto: true,
