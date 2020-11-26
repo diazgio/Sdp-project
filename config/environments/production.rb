@@ -116,7 +116,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
       address: "smtp.office365.com",
       port: 587,
-      domain: "outlook.com",
+      domain: "smtp.office365.com",
       authentication: "plain",
       enable_starttls_auto: true,
       user_name: "informes@sdp.pe",
