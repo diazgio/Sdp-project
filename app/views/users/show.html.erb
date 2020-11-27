@@ -1,34 +1,7 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @user.name %>
-</p>
+<div class="success">
+  <%= image_tag 'white_lock.png', class: 'show'%>
+  <h1>Gracias por inscribirte, se te ha enviado un email de confirmación. </h1>
 
-<p>
-  <strong>Last-name:</strong>
-  <%= @user.last-name %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
-
-<p>
-  <strong>Company:</strong>
-  <%= @user.company %>
-</p>
-
-<p>
-  <strong>Position:</strong>
-  <%= @user.position %>
-</p>
-
-<p>
-  <strong>City:</strong>
-  <%= @user.city %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+  <%= link_to "Atras ", root_path, class: 'back'%>
+</div>

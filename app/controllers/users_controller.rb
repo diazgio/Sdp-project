@@ -29,7 +29,7 @@ class UsersController < ApplicationController
     respond_to do |format|
       if @user.save
         UserMailer.with(user: @user).welcome_email.deliver_now
-        format.html { redirect_to root_path }
+        format.html { redirect_to user_path(id: :id) }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }
@@ -70,6 +70,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.permit(:name, :last_name, :email, :company, :position, :city, :author, :dni)
+      params.permit(:id, :name, :last_name, :email, :company, :position, :city, :author, :dni)
     end
 end

@@ -32,11 +32,39 @@ body, html {
   font-family: 'DIN', sans-serif;
 }
 
-.nota {
-  background-color: rgb(165, 250, 165);
-  padding: 10px;
-  text-align: center;
-  font-weight: bolder;
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #00d4ae;
+  height: 100vh;
+  h1 {
+    font-size: 3em;
+  }
+  .show {
+    height: 25em;
+    margin: 1em;
+  }
+  .back {
+    color: white;
+    padding: 1em;
+    background-color: transparent;
+    border: white solid 2px;
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-decoration: none;
+    width: 7em;
+    text-align: center;
+    margin: 2em;
+  }
+  .back:hover {
+    background-color: white;
+    color: black;
+  }
 }
 
 

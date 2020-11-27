@@ -120,6 +120,10 @@
             font-size: 1.5em;
             text-decoration: none;
           }
+          .button-header:hover{
+            color: black;
+            background-color: white;
+          }
           .button-header:focus {
             visibility: hidden;
           }
