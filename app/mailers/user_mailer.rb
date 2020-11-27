@@ -11,8 +11,8 @@ class UserMailer < ApplicationMailer
     # attachments.inline['white.png'] = lock
     # attachments.inline['logos.png'] = logos
     # attachments.inline['logosblack.jpeg'] = blogos
-    sdbmail = File.read(Rails.root.join('public/sdbmail.png'))
-    attachments.inline['sdbmail.png'] = sdbmail
+    sdbmail = File.read(Rails.root.join('public/email-pic.jpg'))
+    attachments.inline['email-pic.jpg'] = sdbmail
     @url  = 'http://example.com/login'
     mail(to: @user.email, subject: 'Bienvenidos a la Semana de la Publicidad 2020 ')
   end

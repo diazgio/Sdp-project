@@ -28,8 +28,8 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        UserMailer.with(user: @user).welcome_email.deliver_now
-        format.html { redirect_to root_path, notice: 'User was successfully created.' }
+        #UserMailer.with(user: @user).welcome_email.deliver_now
+        format.html { redirect_to root_path }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }

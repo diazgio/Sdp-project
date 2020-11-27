@@ -2,6 +2,15 @@
 <html>
   <head>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <div style='display:flex'>
+        <button class='header-button' style="background-color: black; border: white solid 2px; border-radius: 1rem; font-weight: bolder; font-size: 1em; height: 3em; padding: 0.5em; margin-right: 2em; color: white">
+          <a style="text-decoration: none; color: white" target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWtjMmlkdnRtdmViaTdnZ3ZnN2kwMmU5dHRfMjAyMDEyMDJUMTQwMDAwWiBpbmZvcm1lc3NkcEBt&tmsrc=informessdp%40gmail.com">AGENDA DÍA 1</a>
+        </button>
+        <button class='header-button' style="background-color: black; border: white solid 2px; border-radius: 1rem; font-weight: bolder; font-size: 1em; height: 3em; padding: 0.5em; color: white">
+          <a style="text-decoration: none; color: white" target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWtjMmlkdnRtdmViaTdnZ3ZnN2kwMmU5dHRfMjAyMDEyMDNUMTQwMDAwWiBpbmZvcm1lc3NkcEBt&tmsrc=informessdp%40gmail.com">AGENDA DÍA 2</a>
+        </button>
+      </div>
+      <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MWtjMmlkdnRtdmViaTdnZ3ZnN2kwMmU5dHRfMjAyMDEyMDJUMTQwMDAwWiBpbmZvcm1lc3NkcEBt&amp;tmsrc=informessdp%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_es.gif"></a>
   </head>
   <body>
 <!--    <div class='header-mailer' style="display: flex; justify-content: center; background-color: black; width: 50em; margin-right: auto; margin-left:auto; margin-top: 0; margin-bottom: 0; padding: 2em">-->
@@ -38,6 +47,8 @@
 <!--    <div class='sponsors' style='text-align: center;'>-->
       <%#= image_tag attachments['logosblack.jpeg'].url, style: "height: 45em; width: 50em; margin-right: auto; margin-left:auto; margin-top: 0" %>
 <!--    </div>-->
-    <%= image_tag attachments['sdbmail.png'].url, style: "height: 100%; width: 100%" %>
+    <div style='height: 100%; widht: 100%'>
+      <%= image_tag attachments['email-pic.jpg'].url, style: "height: 100%; width: 100% position: absolute; top: 0" %>
+    </div>
   </body>
 </html>
