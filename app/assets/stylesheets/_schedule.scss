@@ -16,9 +16,15 @@
       font-weight: bolder;
     }
   }
+  .t-subtitle {
+    background-color: #00d4af;
+    margin-top: 2em;
+    width: 16em;
+    text-align: center;
+  }
   .rows {
     display: flex;
-    margin-top: 4em;
+    margin-top: 2em;
     .first-box {
       display: flex;
       flex-direction: column;
@@ -46,6 +52,10 @@
       .dic-2 {
         padding: 0.35em 0;
       }
+      .dic-last {
+        margin-top: 7.5em;
+        padding: 0.35em 0;
+      }
 
     }
     .third-box {
@@ -54,43 +64,27 @@
       text-align: center;
       .color-1 {
         height: 3em;
-        width: 25em;
+        width: 60em;
         background-color: #BBBBBB;
         margin: 0.7em 0;
+        h3 {
+          margin: 0.7em 0 0 0;
+          font-size: 1.2em;
+          font-weight: bolder;
+          color: black;
+        }
       }
       .color-2 {
         height: 3em;
-        width: 25em;
+        width: 60em;
         background-color: #eeeeee;
         margin: 0.7em 0;
-      }
-    }
-    .forth-box {
-      display: flex;
-      flex-direction: column;
-      background-color: #00d4af;
-      width: 10em;
-      text-align: center;
-      .dic-1,
-      .dic-2 {
-        padding: 0.35em 0;
-      }
-    }
-    .fifth-box {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      .color-1 {
-        height: 3em;
-        width: 25em;
-        background-color: #BBBBBB;
-        margin: 0.7em 0;
-      }
-      .color-2 {
-        height: 3em;
-        width: 25em;
-        background-color: #eeeeee;
-        margin: 0.7em 0;
+        h3 {
+          margin: 0.7em 0 0 0;
+          font-size: 1.2em;
+          font-weight: bolder;
+          color: black;
+        }
       }
     }
   }
